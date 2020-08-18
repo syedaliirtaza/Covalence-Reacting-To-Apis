@@ -1,0 +1,35 @@
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(assets/roboto-condensed.light.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: EconomicaBold;
+    src: url(assets/roboto-condensed.light.ttf);
+    
+}
+body{
+    margin: 10;
+    font-family: 'RobotoCondensed';
+    text-align: center;
+    font-size: 10px;
+
+}
+h1,h2,h3,h4,h5{
+    font-family: 'EconomicaBold';
+}
+
+.container .cards {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: lightcyan;
+}
+
+.cards p {
+    position: relative;
+}
